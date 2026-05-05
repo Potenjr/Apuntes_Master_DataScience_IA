@@ -1,0 +1,82 @@
+
+# =========================
+# 🐍 ENTORNO VIRTUAL
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# 🧠 PYTHON CACHE
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# =========================
+# 📦 DIST / BUILD
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# 📓 JUPYTER NOTEBOOK
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# 📊 DATA / ARCHIVOS GRANDES
+# =========================
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# (descomenta si NO quieres subir datos)
+# data/
+
+# =========================
+# 🔐 VARIABLES DE ENTORNO
+# =========================
+.env
+.env.*
+
+# =========================
+# 🧪 TESTS / COVERAGE
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# 🧹 FORMATO / LINTERS
+# =========================
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# 💻 VS CODE
+# =========================
+.vscode/
+
+# =========================
+# 🪵 LOGS
+# =========================
+*.log
+
+# =========================
+# 🪟 WINDOWS / MACOS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 📓 JUPYTER (JUPYTERLAB / EXTENSIONS)
+# =========================
+.jupyter/
